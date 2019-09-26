@@ -1,1 +1,0 @@
-mnist_65000_28_28_32.bin filter=lfs diff=lfs merge=lfs -text

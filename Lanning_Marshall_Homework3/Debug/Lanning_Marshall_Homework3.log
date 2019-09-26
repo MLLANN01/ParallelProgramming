@@ -1,0 +1,31 @@
+﻿  all_pair.cpp
+C:\Users\marsh\Documents\GitHub\ParallelProgramming\Lanning_Marshall_Homework3\all_pair.cpp(133): warning C4244: 'argument': conversion from 'index_t' to 'const unsigned int', possible loss of data
+          with
+          [
+              index_t=index_t
+          ]
+  C:\Users\marsh\Documents\GitHub\ParallelProgramming\Lanning_Marshall_Homework3\all_pair.cpp(241): note: see reference to function template instantiation 'void dynamic_all_pairs<index_t,value_t>(std::vector<value_t,std::allocator<_Ty>> &,std::vector<_Ty,std::allocator<_Ty>> &,index_t,index_t,index_t,index_t)' being compiled
+          with
+          [
+              _Ty=value_t,
+              index_t=index_t
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\chrono(595): note: see reference to class template instantiation 'std::chrono::duration<double,std::ratio<1,1>>' being compiled
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\chrono(172): note: see reference to class template instantiation 'std::chrono::duration<__int64,std::nano>' being compiled
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\chrono(574): note: see reference to class template instantiation 'std::chrono::time_point<std::chrono::steady_clock,std::chrono::steady_clock::duration>' being compiled
+C:\Users\marsh\Documents\GitHub\ParallelProgramming\Lanning_Marshall_Homework3\all_pair.cpp(134): warning C4244: 'argument': conversion from 'index_t' to 'const unsigned int', possible loss of data
+          with
+          [
+              index_t=index_t
+          ]
+C:\Users\marsh\Documents\GitHub\ParallelProgramming\Lanning_Marshall_Homework3\all_pair.cpp(139): warning C4244: 'argument': conversion from 'index_t' to 'const unsigned int', possible loss of data
+          with
+          [
+              index_t=index_t
+          ]
+C:\Users\marsh\Documents\GitHub\ParallelProgramming\Lanning_Marshall_Homework3\all_pair.cpp(140): warning C4244: 'argument': conversion from 'index_t' to 'const unsigned int', possible loss of data
+          with
+          [
+              index_t=index_t
+          ]
+  Lanning_Marshall_Homework3.vcxproj -> C:\Users\marsh\Documents\GitHub\ParallelProgramming\Lanning_Marshall_Homework3\Debug\Lanning_Marshall_Homework3.exe
