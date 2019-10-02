@@ -233,16 +233,17 @@ void all_pair() {
 	TIMERSTART(load_data_from_disk)
 		std::vector<value_t> mnist(rows * cols);
 	load_binary(mnist.data(), rows * cols,
-		"./data/mnist_65000_28_28_32.bin");
+		"C:/Users/marsh/Documents/GitHub/ParallelProgramming/Lanning_Marshall_Homework3/x64/Release/data/mnist_65000_28_28_32.bin");
 	TIMERSTOP(load_data_from_disk)
 
 		TIMERSTART(compute_distances)
 		std::vector<value_t> all_pair(rows * rows);
-	dynamic_all_pairs(mnist, all_pair, rows, cols);
+	sequential_all_pairs(mnist, all_pair, rows, cols);
 	TIMERSTOP(compute_distances)
 
 
-		TIMERSTART(dump_to_disk)
+/*		TIMERSTART(dump_to_disk)
 		dump_binary(mnist.data(), rows * rows, "./all_pairs.bin");
 	TIMERSTOP(dump_to_disk)
+*/
 }

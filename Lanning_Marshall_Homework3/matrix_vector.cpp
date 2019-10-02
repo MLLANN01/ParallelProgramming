@@ -52,16 +52,18 @@ template <
 		index_t num_threads = 8) { // number of threads p
 
 		// this  function  is  called  by the  threads
-	auto cyclic = [&](const index_t & id) -> void {
-
-		// indices are incremented with a stride of p
-		for (index_t row = id; row < m; row += num_threads) {
-			value_t accum = value_t(0);
+	auto cyclic = [&](const index_t & id) -> void
+	{
+		for (index_t row = id; row < n; row += num_threads)
+		{
+			// initialize result vector to zero
+			b[row] = 0;
+			// directly accumulate in b[row]
 			for (index_t col = 0; col < n; col++)
-				accum += A[row * n + col] * x[col];
-			b[row] = accum;
+				b[row] += A[row * n + col] * x[col];
 		}
 	};
+
 
 	// business as usual
 	std::vector<std::thread> threads;
@@ -181,7 +183,7 @@ void matrix_vector() {
 	TIMERSTOP(init)
 
 		TIMERSTART(mult)
-		block_cyclic_parallel_mult(A, x, b, m, n);
+		cyclic_parallel_mult(A, x, b, m, n);
 	TIMERSTOP(mult)
 
 		TIMERSTOP(overall)

@@ -9,6 +9,12 @@ void all_pair();
 
 int main()
 {
+
+	cout << "\n\n-----------------------\n\n";
+	cout << "all_pair Output\n";
+	all_pair();
+	cout << "\n\n-----------------------\n\n";
+
 	/*
 	cout << "Hello World Output\n";
 	hello_world();
@@ -19,15 +25,15 @@ int main()
 	cout << "Promise_Future Output\n";
 	promise_future();
 	cout << "\n\n-----------------------\n\n";
-	*/
-	//cout << "matrix_vector Output\n";
-	//matrix_vector();
+	cout << "matrix_vector Output\n";
+	matrix_vector();
 
 	
 	cout << "\n\n-----------------------\n\n";
 	cout << "all_pair Output\n";
-	all_pair();
+    all_pair();
 	
 
+	*/
 	return 0;
 }
