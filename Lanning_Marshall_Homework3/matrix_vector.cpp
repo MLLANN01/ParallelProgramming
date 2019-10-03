@@ -62,7 +62,7 @@ template <
 			for (index_t col = 0; col < n; col++)
 				b[row] += A[row * n + col] * x[col];
 		}
-	};
+	}
 
 
 	// business as usual
@@ -183,7 +183,7 @@ void matrix_vector() {
 	TIMERSTOP(init)
 
 		TIMERSTART(mult)
-		cyclic_parallel_mult(A, x, b, m, n);
+		block_cyclic_parallel_mult(A, x, b, m, n);
 	TIMERSTOP(mult)
 
 		TIMERSTOP(overall)
