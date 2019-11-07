@@ -1,0 +1,14 @@
+﻿  softmax.cpp
+C:\Users\marsh\Documents\GitHub\ParallelProgramming\Homework4\Homework4\Homework4\Homework4\binary_IO.hpp(34,3): warning C4551: function call missing argument list
+C:\Users\marsh\Documents\GitHub\ParallelProgramming\Homework4\Homework4\Homework4\Homework4\softmax.cpp(194): message : see reference to function template instantiation 'void load_binary<unsigned __int64,_Ty>(const value_t *,const index_t,std::string)' being compiled
+C:\Users\marsh\Documents\GitHub\ParallelProgramming\Homework4\Homework4\Homework4\Homework4\softmax.cpp(194): message :         with
+C:\Users\marsh\Documents\GitHub\ParallelProgramming\Homework4\Homework4\Homework4\Homework4\softmax.cpp(194): message :         [
+C:\Users\marsh\Documents\GitHub\ParallelProgramming\Homework4\Homework4\Homework4\Homework4\softmax.cpp(194): message :             _Ty=float,
+C:\Users\marsh\Documents\GitHub\ParallelProgramming\Homework4\Homework4\Homework4\Homework4\softmax.cpp(194): message :             value_t=float,
+C:\Users\marsh\Documents\GitHub\ParallelProgramming\Homework4\Homework4\Homework4\Homework4\softmax.cpp(194): message :             index_t=unsigned __int64
+C:\Users\marsh\Documents\GitHub\ParallelProgramming\Homework4\Homework4\Homework4\Homework4\softmax.cpp(194): message :         ]
+  Generating code
+  Compiler version has changed, fall back to full compilation.
+  All 414 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Homework4.vcxproj -> C:\Users\marsh\Documents\GitHub\ParallelProgramming\Homework4\Homework4\Homework4\x64\Release\Homework4.exe

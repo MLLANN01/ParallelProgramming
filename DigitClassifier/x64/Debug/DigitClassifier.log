@@ -1,0 +1,16 @@
+﻿  1NN.cpp
+C:\Users\marsh\Documents\GitHub\ParallelProgramming\DigitClassifier\binary_IO.hpp(34,3): warning C4551: function call missing argument list
+C:\Users\marsh\Documents\GitHub\ParallelProgramming\DigitClassifier\1NN.cpp(104): message : see reference to function template instantiation 'void load_binary<unsigned __int64,_Ty>(const value_t *,const index_t,std::string)' being compiled
+C:\Users\marsh\Documents\GitHub\ParallelProgramming\DigitClassifier\1NN.cpp(104): message :         with
+C:\Users\marsh\Documents\GitHub\ParallelProgramming\DigitClassifier\1NN.cpp(104): message :         [
+C:\Users\marsh\Documents\GitHub\ParallelProgramming\DigitClassifier\1NN.cpp(104): message :             _Ty=float,
+C:\Users\marsh\Documents\GitHub\ParallelProgramming\DigitClassifier\1NN.cpp(104): message :             value_t=float,
+C:\Users\marsh\Documents\GitHub\ParallelProgramming\DigitClassifier\1NN.cpp(104): message :             index_t=unsigned __int64
+C:\Users\marsh\Documents\GitHub\ParallelProgramming\DigitClassifier\1NN.cpp(104): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\chrono(669): message : see reference to class template instantiation 'std::chrono::duration<double,std::ratio<1,1>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\chrono(177): message : see reference to class template instantiation 'std::chrono::duration<__int64,std::nano>' being compiled
+  main.cpp
+  softmax.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\chrono(647): message : see reference to class template instantiation 'std::chrono::time_point<std::chrono::steady_clock,std::chrono::steady_clock::duration>' being compiled
+  Generating Code...
+C:\Users\marsh\Documents\GitHub\ParallelProgramming\DigitClassifier\softmax.cpp(8,9): fatal error C1083: Cannot open include file: 'opencv2/opencv.hpp': No such file or directory
